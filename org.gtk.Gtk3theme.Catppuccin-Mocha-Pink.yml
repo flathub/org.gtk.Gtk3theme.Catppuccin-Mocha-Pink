@@ -18,7 +18,7 @@ modules:
       - appstream-compose --basename=org.gtk.Gtk3theme.Catppuccin-Mocha-Pink --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Catppuccin-Mocha-Pink
     sources:
       - type: file
-        url: https://github.com/catppuccin/gtk/releases/download/v-0.2.5/Catppuccin-Mocha-Pink.zip
+        url: https://github.com/catppuccin/gtk/releases/download/v-0.2.7/Catppuccin-Mocha-Pink.zip
         dest-filename: "theme.zip"
         sha256: 4e73eddd807317048bd2a2622a68bff2f0b0c176d692b39f135e022d09bc52a0
       - type: file
